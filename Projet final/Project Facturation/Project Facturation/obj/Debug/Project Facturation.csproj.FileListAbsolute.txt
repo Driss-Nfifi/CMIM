@@ -1,0 +1,137 @@
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\Project Facturation.exe.config
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\Project Facturation.exe
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\Project Facturation.pdb
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Form1.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Properties.Resources.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project Facturation.csproj.GenerateResource.Cache
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project Facturation.csproj.CoreCompileInputs.cache
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project Facturation.exe
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project Facturation.pdb
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Command_UC.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.Add_Commande_UC.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.Product_UC.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.AddedProduct_UC.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.Consulter_Commandes.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.Commande_Row.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\MaterialSkin.dll
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.Commande_Title.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\stdole.dll
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\FlashControlV71.dll
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.ReportViewer_UC.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.choiceCamionAndChauffeur.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\MetroFramework.dll
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.MAJ_UC.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.Facture.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.Livraison.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.FactureUc.Creation.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.FactureUc.Imrimerfact.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.FactureUc.Ligne.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.FactureUc.Title.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.LivraisonUc.Consultation.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.LivraisonUc.CreationLiv.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.LivraisonUc.Impression.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project Facturation.csprojResolveAssemblyReference.cache
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.LCmd_Row.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.LCmd_Title.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Report_Viewer_Form.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.Choices_After_Commande.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Ressource_Uc.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.setDepotNumber.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Itshort.Resources.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.FactureUc.Imprimer.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.FactureUc.LigneFacture.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.FactureUc.TitleFact.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.LivraisonUc.Ligne.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.LivraisonUc.Title.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\Project Facturation.exe.manifest
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\bin\Debug\Project Facturation.application
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project Facturation.exe.manifest
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project Facturation.application
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.Consulter_Tournee.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.LTournee_Row.resources
+C:\Users\Yassine_mag\source\repos\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.LTournee_Title.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\Project Facturation.exe.config
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\Project Facturation.exe.manifest
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\Project Facturation.application
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\Project Facturation.exe
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\Project Facturation.pdb
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\stdole.dll
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project Facturation.csprojAssemblyReference.cache
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Form1.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.MAJ_UC.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.AddedProduct_UC.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.Add_Commande_UC.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.choiceCamionAndChauffeur.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.Choices_After_Commande.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.Commande_Row.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.Commande_Title.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.Consulter_Commandes.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.Consulter_Tournee.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.LCmd_Row.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.LCmd_Title.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.LTournee_Row.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.LTournee_Title.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Commande_Component.Product_UC.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Command_UC.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.Facture.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.FactureUc.Creation.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.FactureUc.Imprimer.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.FactureUc.Imrimerfact.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.FactureUc.Ligne.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.FactureUc.LigneFacture.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.FactureUc.Title.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.FactureUc.TitleFact.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.Livraison.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.LivraisonUc.Consultation.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.LivraisonUc.CreationLiv.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.LivraisonUc.Impression.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.LivraisonUc.Ligne.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Itshort.UserControll.LivraisonUc.Title.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.ReportViewer_UC.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Itshort.Resources.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Project_UC.Ressource_Uc.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Properties.Resources.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.Report_Viewer_Form.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project_Facturation.setDepotNumber.resources
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project Facturation.csproj.GenerateResource.cache
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project Facturation.csproj.CoreCompileInputs.cache
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project Facturation.exe.manifest
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project Facturation.application
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project Facturation.csproj.CopyComplete
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project Facturation.exe
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\obj\Debug\Project Facturation.pdb
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\yassine\Desktop\Project Facturation\Project Facturation\bin\Debug\FlashControlV71.dll

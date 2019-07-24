@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{48C85BED-E9A0-4B0F-9BAE-8D1F4BE2F9AB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Project_Facturation</RootNamespace>
+    <AssemblyName>Project Facturation</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Yassine_mag\Desktop\IT Facturation\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>32301C11F42181BB923E82D0A4721B605054148A</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Project Facturation_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="MaterialSkin">
+      <HintPath>..\..\..\..\Desktop\Mes_Outils_Dev\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\..\..\Desktop\Mes_Outils_Dev\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BonCommande.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BonCommande.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BonDeChargement.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BonDeChargement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BonLivraison.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BonLivraison.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Data Set.cs">
+      <DependentUpon>Data Set.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Set.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Data Set.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Facturation.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Facturation.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAJ_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MAJ_UC.Designer.cs">
+      <DependentUpon>MAJ_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Camion.cs" />
+    <Compile Include="Models\Chauffeur.cs" />
+    <Compile Include="Models\Client.cs" />
+    <Compile Include="Models\Commande.cs" />
+    <Compile Include="Models\ligneCommande.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\Produit.cs" />
+    <Compile Include="Models\SqlServer_Classes.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Project_UC\Commande_Component\AddedProduct_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\AddedProduct_UC.Designer.cs">
+      <DependentUpon>AddedProduct_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\Add_Commande_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\Add_Commande_UC.Designer.cs">
+      <DependentUpon>Add_Commande_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\choiceCamionAndChauffeur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\choiceCamionAndChauffeur.Designer.cs">
+      <DependentUpon>choiceCamionAndChauffeur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\Choices_After_Commande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\Choices_After_Commande.Designer.cs">
+      <DependentUpon>Choices_After_Commande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\Commande_Row.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\Commande_Row.Designer.cs">
+      <DependentUpon>Commande_Row.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\Commande_Title.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\Commande_Title.Designer.cs">
+      <DependentUpon>Commande_Title.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\Consulter_Commandes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\Consulter_Commandes.Designer.cs">
+      <DependentUpon>Consulter_Commandes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\Consulter_Tournee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\Consulter_Tournee.Designer.cs">
+      <DependentUpon>Consulter_Tournee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\LCmd_Row.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\LCmd_Row.Designer.cs">
+      <DependentUpon>LCmd_Row.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\LCmd_Title.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\LCmd_Title.Designer.cs">
+      <DependentUpon>LCmd_Title.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\LTournee_Row.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\LTournee_Row.Designer.cs">
+      <DependentUpon>LTournee_Row.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\LTournee_Title.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\LTournee_Title.Designer.cs">
+      <DependentUpon>LTournee_Title.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\Product_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\Commande_Component\Product_UC.Designer.cs">
+      <DependentUpon>Product_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\Command_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\Command_UC.Designer.cs">
+      <DependentUpon>Command_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\Facture.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\Facture.designer.cs">
+      <DependentUpon>Facture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\FactureUc\Creation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\FactureUc\Creation.designer.cs">
+      <DependentUpon>Creation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\FactureUc\Imprimer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\FactureUc\Imprimer.designer.cs">
+      <DependentUpon>Imprimer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\FactureUc\Imrimerfact.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\FactureUc\Imrimerfact.designer.cs">
+      <DependentUpon>Imrimerfact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\FactureUc\Ligne.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\FactureUc\Ligne.designer.cs">
+      <DependentUpon>Ligne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\FactureUc\LigneFacture.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\FactureUc\LigneFacture.designer.cs">
+      <DependentUpon>LigneFacture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\FactureUc\Title.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\FactureUc\Title.designer.cs">
+      <DependentUpon>Title.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\FactureUc\TitleFact.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\FactureUc\TitleFact.designer.cs">
+      <DependentUpon>TitleFact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\Livraison.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\Livraison.designer.cs">
+      <DependentUpon>Livraison.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\LivraisonUc\Consultation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\LivraisonUc\Consultation.designer.cs">
+      <DependentUpon>Consultation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\LivraisonUc\CreationLiv.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\LivraisonUc\CreationLiv.designer.cs">
+      <DependentUpon>CreationLiv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\LivraisonUc\Impression.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\LivraisonUc\Impression.designer.cs">
+      <DependentUpon>Impression.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\LivraisonUc\Ligne.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\LivraisonUc\Ligne.designer.cs">
+      <DependentUpon>Ligne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\LivraisonUc\Title.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\LivraisonUc\Title.designer.cs">
+      <DependentUpon>Title.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\ReportViewer_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\ReportViewer_UC.Designer.cs">
+      <DependentUpon>ReportViewer_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\Resources.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\Resources.designer.cs">
+      <DependentUpon>Resources.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_UC\Ressource_Uc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project_UC\Ressource_Uc.Designer.cs">
+      <DependentUpon>Ressource_Uc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report_Viewer_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report_Viewer_Form.Designer.cs">
+      <DependentUpon>Report_Viewer_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="setDepotNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="setDepotNumber.Designer.cs">
+      <DependentUpon>setDepotNumber.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BonCommande.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BonCommande.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BonDeChargement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BonDeChargement.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BonLivraison.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BonLivraison.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturation.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Facturation.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAJ_UC.resx">
+      <DependentUpon>MAJ_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\Commande_Component\AddedProduct_UC.resx">
+      <DependentUpon>AddedProduct_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\Commande_Component\Add_Commande_UC.resx">
+      <DependentUpon>Add_Commande_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\Commande_Component\choiceCamionAndChauffeur.resx">
+      <DependentUpon>choiceCamionAndChauffeur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\Commande_Component\Choices_After_Commande.resx">
+      <DependentUpon>Choices_After_Commande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\Commande_Component\Commande_Row.resx">
+      <DependentUpon>Commande_Row.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\Commande_Component\Commande_Title.resx">
+      <DependentUpon>Commande_Title.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\Commande_Component\Consulter_Commandes.resx">
+      <DependentUpon>Consulter_Commandes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\Commande_Component\Consulter_Tournee.resx">
+      <DependentUpon>Consulter_Tournee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\Commande_Component\LCmd_Row.resx">
+      <DependentUpon>LCmd_Row.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\Commande_Component\LCmd_Title.resx">
+      <DependentUpon>LCmd_Title.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\Commande_Component\LTournee_Row.resx">
+      <DependentUpon>LTournee_Row.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\Commande_Component\LTournee_Title.resx">
+      <DependentUpon>LTournee_Title.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\Commande_Component\Product_UC.resx">
+      <DependentUpon>Product_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\Command_UC.resx">
+      <DependentUpon>Command_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\Facture.resx">
+      <DependentUpon>Facture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\FactureUc\Creation.resx">
+      <DependentUpon>Creation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\FactureUc\Imprimer.resx">
+      <DependentUpon>Imprimer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\FactureUc\Imrimerfact.resx">
+      <DependentUpon>Imrimerfact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\FactureUc\Ligne.resx">
+      <DependentUpon>Ligne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\FactureUc\LigneFacture.resx">
+      <DependentUpon>LigneFacture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\FactureUc\Title.resx">
+      <DependentUpon>Title.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\FactureUc\TitleFact.resx">
+      <DependentUpon>TitleFact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\Livraison.resx">
+      <DependentUpon>Livraison.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\LivraisonUc\Consultation.resx">
+      <DependentUpon>Consultation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\LivraisonUc\CreationLiv.resx">
+      <DependentUpon>CreationLiv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\LivraisonUc\Impression.resx">
+      <DependentUpon>Impression.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\LivraisonUc\Ligne.resx">
+      <DependentUpon>Ligne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\LivraisonUc\Title.resx">
+      <DependentUpon>Title.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\ReportViewer_UC.resx">
+      <DependentUpon>ReportViewer_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\Resources.resx">
+      <DependentUpon>Resources.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_UC\Ressource_Uc.resx">
+      <DependentUpon>Ressource_Uc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report_Viewer_Form.resx">
+      <DependentUpon>Report_Viewer_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="setDepotNumber.resx">
+      <DependentUpon>setDepotNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Data Set.xsc">
+      <DependentUpon>Data Set.xsd</DependentUpon>
+    </None>
+    <None Include="Data Set.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Data Set.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data Set.xss">
+      <DependentUpon>Data Set.xsd</DependentUpon>
+    </None>
+    <None Include="Project Facturation_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_window.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-black-symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gray_plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send-button%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checked%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\itshore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-gears%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
